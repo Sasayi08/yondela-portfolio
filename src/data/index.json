@@ -44,7 +44,7 @@
       },
       {
         "id": "3",
-        "src": "./img/placeholder-image-2.png",
+        "src": "./img/chatApp.png",
         "title": "WeShare",
         "description": "This is a web application that I built with my group as an exercise, it's one of the prjects I'm proud of. We used Java and Javalin to fetch the API",
         "link": "View In Github",
