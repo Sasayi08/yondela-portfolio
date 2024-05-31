@@ -10,8 +10,7 @@ export default function HeroSection() {
                         <br />
                         Developer 
                     </h1>
-                    <p>lorem ipsum.. elit.
-                    <br /> Dolorum..
+                    <p>A passionate software developer
                     </p>
                     
                 </div>
