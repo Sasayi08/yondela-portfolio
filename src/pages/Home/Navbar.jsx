@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import { Link } from "react-scroll";
+import CV from "../../data/CV.pdf"
 
 function Navbar() {
     const [navActive, setNavActive] = useState(false);
@@ -55,7 +56,7 @@ function Navbar() {
                   activeClass="navbar--active-content"
                   spy={true}
                   smooth={true}
-                  offset={-70}
+                  offset={0}
                   duration={500}
                   to="heroSection"
                   className="navbar--content"
@@ -69,12 +70,12 @@ function Navbar() {
                   activeClass="navbar--active-content"
                   spy={true}
                   smooth={true}
-                  offset={-70}
+                  offset={0}
                   duration={500}
-                  to="MyPortfolio"
+                  to="mySkills"
                   className="navbar--content"
                 >
-                  Portfolio
+                  My Skills
                 </Link>
               </li>
               <li>
@@ -83,7 +84,7 @@ function Navbar() {
                   activeClass="navbar--active-content"
                   spy={true}
                   smooth={true}
-                  offset={-70}
+                  offset={0}
                   duration={500}
                   to="AboutMe"
                   className="navbar--content"
@@ -97,28 +98,43 @@ function Navbar() {
                   activeClass="navbar--active-content"
                   spy={true}
                   smooth={true}
-                  offset={-70}
+                  offset={0}
                   duration={500}
-                  to="testimonial"
+                  to="MyPortfolio"
                   className="navbar--content"
                 >
-                  Testimonials
+                  Portfolio
                 </Link>
               </li>
             </ul>
           </div>
-          <Link
-            onClick={closeMenu}
-            activeClass="navbar--active-content"
-            spy={true}
-            smooth={true}
-            offset={-70}
-            duration={500}
-            to="Contact"
-            className="btn btn-outline-primary"
-          >
-            Contact Me
-          </Link>
+          <div className="nav-btns">
+            <Link
+              onClick={closeMenu}
+              activeClass="navbar--active-content"
+              spy={true}
+              smooth={true}
+              offset={50}
+              duration={500}
+              to="Contact"
+              className="btn btn-outline-primary"
+            >
+              Contact Me
+            </Link>
+            <Link
+              onClick={closeMenu}
+              activeClass="navbar--active-content"
+              spy={true}
+              smooth={true}
+              offset={50}
+              duration={500}
+              to="Contact"
+              className="btn btn-outline-primary"
+              download={CV}
+            >
+              Download CV
+            </Link>
+          </div>
         </nav>
       );
     
