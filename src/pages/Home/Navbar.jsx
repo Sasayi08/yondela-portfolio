@@ -130,7 +130,8 @@ function Navbar() {
               duration={500}
               to="Contact"
               className="btn btn-outline-primary"
-              download={CV}
+              href={CV}
+              download={"CV"}
             >
               Download CV
             </Link>
