@@ -114,27 +114,23 @@ function Navbar() {
               activeClass="navbar--active-content"
               spy={true}
               smooth={true}
-              offset={50}
+              offset={0}
               duration={500}
               to="Contact"
               className="btn btn-outline-primary"
             >
               Contact Me
             </Link>
-            <Link
+            <a
               onClick={closeMenu}
-              activeClass="navbar--active-content"
-              spy={true}
-              smooth={true}
-              offset={50}
-              duration={500}
-              to="Contact"
               className="btn btn-outline-primary"
               href={CV}
-              download={"CV"}
+              // download={"CV"}
+              target="_blank"
+              rel="noopener noreferrer"
             >
-              Download CV
-            </Link>
+              View/Download CV
+            </a>
           </div>
         </nav>
       );
