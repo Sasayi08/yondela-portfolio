@@ -12,8 +12,7 @@ export default function HeroSection() {
                         <br />
                         Developer 
                     </h1>
-                    <p>A passionate software developer
-                    </p>
+                    <br />
                     
                 </div>
                 <Link
@@ -23,7 +22,7 @@ export default function HeroSection() {
                  smooth={true}
                  offset={20}
                  duration={500}
-                 to="MyPortfolio"
+                 to="Contact"
                 >
                     <button className="btn btn-primary">Get In Touch</button>
                 </Link>
