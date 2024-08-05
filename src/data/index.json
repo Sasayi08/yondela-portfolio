@@ -28,7 +28,7 @@
     "portfolio": [
       {
         "id": "1",
-        "src": "./img/Exalt15.png",
+        "src": "./img/Exalt15.PNG",
         "title": "Exalt15",
         "description": "This web app allows a person to request a maid. its a personal project and even though there are application like it, the idea is very original",
         "link": "View In Github",
@@ -36,7 +36,7 @@
       },
       {
         "id": "2",
-        "src": "./img/food-app.png",
+        "src": "./img/food-app.PNG",
         "title": "Calory intake calculator",
         "description": "This is an application I built pairing with a friend, using Kotlin in Android Studio, it fetches an API on foodninja.com to display total amount of calories you have consumed it is also original",
         "link": "View In Github",
@@ -44,7 +44,7 @@
       },
       {
         "id": "3",
-        "src": "./img/chatApp.png",
+        "src": "./img/chatApp.PNG",
         "title": "WeShare",
         "description": "This is a web application that I built with my group as an exercise, it's one of the prjects I'm proud of. We used Java and Javalin to fetch the API",
         "link": "View In Github",

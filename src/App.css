@@ -25,6 +25,15 @@ p {
   --black: #000000;
   --white: #ffffff;
 }
+
+.nameLogo {
+  font-size: 2rem;
+}
+
+.nameLogo span {
+  border-bottom:#000000 solid 2px;
+}
+
 .btn {
   font-family: "Roboto";
   display: inline-block;
