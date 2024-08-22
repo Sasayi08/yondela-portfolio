@@ -30,7 +30,7 @@
         "id": "1",
         "src": "./img/geek1.png",
         "title": "Geek Library",
-        "description": "This is a web application that allows a user to log in and request for books. The admin side can process the requests. We used Java and Javalin to create the server and springboot thymeleaf with HTML. The idea is original",
+        "description": "This is a web application that allows a user to log in and request for books. The admin side can process the requests. I used Java and Javalin to create the server and springboot thymeleaf with HTML. The idea is original",
         "link": "View In Github",
         "git-link": "https://github.com/Sasayi08/exalt15"
       },
