@@ -28,10 +28,11 @@ export default function ContactMe() {
     return (
       <section id="Contact" className="contact--section">
         <div>
-          <p className="sub--title">Get In Touch</p>
-          <h2>Contact Me</h2>
+          <h2>Get In Touch</h2>
+          <p className="sub--title">_______________________</p>
+          <br></br>
           <p className="text-lg">
-            Leave me a message I respond within 24 hours.
+            I respond within 24 hours.
           </p>
         </div>
         <form onSubmit={onSubmit} className="contact--form--container">

@@ -4,13 +4,13 @@
         "id": "1",
         "src": "./img/product-chain-1.png",
         "title": "Front-End",
-        "description": "I've worked with HTML, CSS, Javascript, React.js "
+        "description": "I've worked with HTML, CSS, Javascript, React.js"
       },
       {
         "id": "2",
         "src": "./img/tag-1.png",
         "title": "Back-End",
-        "description": "I've worked with Node.js, Javalin"
+        "description": "I've worked with MERN stack, Javalin"
       },
       {
         "id": "3",
@@ -28,9 +28,9 @@
     "portfolio": [
       {
         "id": "1",
-        "src": "./img/Exalt15.PNG",
-        "title": "Exalt15",
-        "description": "This web app allows a person to request a maid. its a personal project and even though there are application like it, the idea is very original",
+        "src": "./img/geek1.png",
+        "title": "Geek Library",
+        "description": "This is a web application that allows a user to log in and request for books. The admin side can process the requests. We used Java and Javalin to create the server and springboot thymeleaf with HTML. The idea is original",
         "link": "View In Github",
         "git-link": "https://github.com/Sasayi08/exalt15"
       },
@@ -38,43 +38,18 @@
         "id": "2",
         "src": "./img/food-app.PNG",
         "title": "Calory intake calculator",
-        "description": "This is an application I built pairing with a friend, using Kotlin in Android Studio, it fetches an API on foodninja.com to display total amount of calories you have consumed it is also original",
+        "description": "This is an application I built pairing with a friend, using Kotlin in Android Studio, it fetches an API on foodninja.com to display total amount of calories you have consumed. It is also original",
         "link": "View In Github",
         "git-link": "https://github.com/Yoondela/Foods-app-Shameeg-and-Yondela"
       },
       {
         "id": "3",
-        "src": "./img/chatApp.PNG",
-        "title": "WeShare",
-        "description": "This is a web application that I built with my group as an exercise, it's one of the prjects I'm proud of. We used Java and Javalin to fetch the API",
+        "src": "./img/Exalt15.PNG",
+        "title": "Exalt",
+        "description": "This web app is still being worked on (currently non responsive) it will allow a person to request for a maid same way as uber requests. Created with HTML and CSS (currently migrating it to Next.js). It is also original",
         "link": "View In Github",
         "git-link": "https://github.com/Sasayi08/exalt15"
       }
-    ],
-    "testimonial": [
-      {
-        "id": "1",
-        "count": "5",
-        "src": "./img/avatar-image.png",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
-        "author_name": "Dianne Russel",
-        "author_designation": "Starbucks"
-      },
-      {
-        "id": "2",
-        "count": "5",
-        "src": "./img/avatar-image-1.png",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
-        "author_name": "Kristin Watson",
-        "author_designation": "Louis Vuitton"
-      },
-      {
-        "id": "3",
-        "count": "5",
-        "src": "./img/avatar-image-2.png",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
-        "author_name": "Kathryn Murphy",
-        "author_designation": "McDonald's"
-      }
     ]
+    
   }
